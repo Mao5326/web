@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mi prmero web</title>
+    <style>
+        table, th, td {
+            border: 1px solid black;
+        }
+    </style>
+</head>
+<body>
+
+    <table style="width: 200;">
+        <thead>
+            <tr>
+                <th>PRODUTOS</th>
+                <th>CANTIDAD</th>
+                <th>VALOR</th>
+            </tr>
+            
+        </thead>
+        <tbody>
+            <tr>
+                <td>PANTALONETAS</td>
+                <td>100</td>
+                <td>300</td
+            </tr>
+            <tr>
+                <td>CAMISETA</td>
+                <td>100</td>
+                <td>500</td
+            </tr>
+            <tr>
+                <td>MEDIAS</td>
+                <td>100</td>
+                <td>50</td
+            </tr>
+            
+        </tbody>
+        <tfoot>
+            <td></td>
+            <td></td>
+            <td>Total 37.777</td>
+        </tfoot>
+    </table>
+
+
+    <!--ul lista no ordenada ol lista ordenada li item de lista la propiedad value me indica desde donde inicia el orden por dfecto es 1  -->
+
+    <ol>
+        <li>elemento 1</li> 
+        <li>elemento 2</li> 
+        <li>elemento 3</li> 
+        <li>elemento 4</li> 
+        <li>elemento 5</li>
+            <ol>
+                <li style="list-style:lower-roman;">subelemento 1</li>
+                <li style="list-style:lower-roman;">subelemento 2</li>
+                <li style="list-style:lower-roman;">subelemento 3</li>
+                <li style="list-style:lower-roman;">subelemento 4</li>
+            </ol> 
+        <li>elemento 6</li> 
+        <li>elemento 7</li> 
+    </ol>
+    <!-- propiedades de for  action-> donde voy a enviaar los datos 
+         method-. que metodo uso para enviar los fdatos get o post -->
+    <form action="formulario" method="post">
+        <label for="nombre">Nombre</label>
+        <!--proiedades de input = value-> valor por defecto name->enviar datos llave  id-> focalizar placeholder-> fondo 
+        type (submit, text->por defecto email password->oculta radio-> boton chechbox-> seleccionar 
+        file->adicionar archivo )-->
+
+        <input value="carlos" type="text" id="nombre" name="nombre" placeholder="nombre"/>
+        <br>
+        
+        <label for="apellido">Apellido</label>
+        <input value="perez" type="text" id="apellido" name="apellido" placeholder="apellido"/>
+        <br>
+        
+        <label for="comentario">comentario</label>
+        <textarea id="comentario" placeholder="agregarcomentario" rows="10" cols="10"> este es el comentario por deecto </textarea>
+        <br>
+
+        <button type="button"><img src="img/favicon.ico" width="30" /> button</button> <!--con java se iasigna la accion  incir imagen-->
+        <button type="submit">Type submit</button> <!--envia los datos al formulario segun dest y metodo indicados en el form -->
+        <button type="reset">Type reset</button> <!--limpia el formulario -->
+    </form>
+
+    <h1>SATELITALE NETWORK SOLUTIONS</h1>
+    <h2>MISION</h2>
+        <P>hhshshhshshshshshhshs  hhhf  <br> hdgdhdhdhdgddhfkfhfhhfjfjhdgdhdggd <br>
+        hdhshhsjdjdhdhfhfhfhhfjfjhfhfjfhhfhjjfbfbhfhf fhhf </P>
+    <h2>VISION </h2>
+            <p>fffffffffffffffffffffffffffff<br> ggggggggggggggggggggggg </p>
+    <hr>
+    <h2>Rsena historica</h2>
+    <p> gagaagsgsgsgsvgjsgabgafarav <span style="color: aqua" etiquta de span</span> para prueba </p>
+    <a target="_blank" href="https://www.google.com.co">ir a google</a> <br>
+    <img src="img/Satnet.png" height="100" width="200"/>
+
+   
+
+
+    
+</body>
+</html>
